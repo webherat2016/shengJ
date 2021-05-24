@@ -3,7 +3,9 @@
 html {
     font-family: "微软雅黑", Arial, sans-serif;
 }
-
+main{
+    overflow: hidden;
+}
 body,
 div,
 dl,

@@ -6,7 +6,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 115px;
+    height:80px;
     padding: 0 100px;
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -29,10 +29,13 @@ nav > ul {
     justify-content: space-between;
     align-items: center;
 }
-
-nav > ul > li {
-    cursor: pointer;
-    color: #ffffff
+nav > ul > li{
+    cursor: pointer;    color: #ffffff!important;
+}
+nav > ul > li>a {
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;    color: #ffffff!important;
 }
 
 .pitch {
@@ -177,7 +180,7 @@ nav > div > div {
 }
 
 .mark > div {
-    width: 172px;
+    width: 170px;
     height: 120px;
     display: flex;
     justify-content: center;
