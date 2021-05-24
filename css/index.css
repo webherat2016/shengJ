@@ -1,0 +1,100 @@
+main {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/homeBG.png");
+    background-size: 100% 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 115px;
+    padding: 0 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav > img {
+    width: 223px;
+    height: 35px;
+}
+
+nav > div > p {
+    letter-spacing: 2px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+nav > ul {
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul > li {
+    cursor: pointer;
+    color: #ffffff
+}
+
+.pitch {
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #469dff;
+}
+
+nav > div {
+    width: 375px;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > div > img {
+    width: 56px;
+    height: 56px;
+}
+
+nav > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+    height: 60px;
+    text-align: center;
+}
+
+.homeTit {
+    width: 100%;
+    /*height: 195px;*/
+    padding-top: 100px;
+    font-size: 80px;
+    padding-right: 200px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.homeTit > p:nth-of-type(1) {
+    margin-right: 210px;
+}
+
+.homeCont {
+    width: 1500px;
+    margin: 70px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeCont > div {
+    width: 325px;
+    height: 445px;
+    font-size: 48px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.homeCont > div > img {
+    width: 100%;
+    height: 325px;
+}
