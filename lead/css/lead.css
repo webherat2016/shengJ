@@ -1,0 +1,79 @@
+.main {
+    width: 1920px;
+    height: 1080px;
+    background: url("../img/BG.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.main > section {
+    width: 608px;
+    height: 735px;
+    background-color: #eef6ff;
+    box-shadow: -2px 9px 38px 2px rgba(69, 156, 255, 0.29);
+    border-radius: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#zyForm{
+
+}
+.form-group>div{
+    margin-bottom: 40px;
+}
+.affixs {
+    width: 552px;
+    height: 78px;
+    background-image: linear-gradient(
+            #ffffff,
+            #ffffff),
+    linear-gradient(178deg,
+            #b7d3fb 0%,
+            #3372f2 100%);
+    background-blend-mode: normal,
+    normal;
+    border-radius: 14px;
+}
+
+.control-label > img {
+    width: 40px;
+    height: 40px;
+}
+.affixs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+}
+.affixs > input {
+    width: 360px;
+    height: 55px;
+    border: transparent;
+    /*border: 1px solid red;*/
+    outline: none;
+    margin-left: 30px;
+}
+#submit{
+    width: 552px;
+    height: 99px;
+    background-image: linear-gradient(178deg,
+    #b7d3fb 0%,
+    #3372f2 100%);
+    border-radius: 49px;
+    outline: none;
+    border: transparent;
+    font-size: 33px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 7px;
+    color: #ffffff;
+}
+.form-control{
+
+}
+.help-block {
+    color: red !important;
+    position: relative;
+    top: 0px;
+}
